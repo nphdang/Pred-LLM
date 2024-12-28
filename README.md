@@ -10,17 +10,21 @@ The method Pred-LLM includes three phases: (1) fine-tuning a pre-trained LLM wit
 Please refer to the file "requirements.txt"
 
 # How to run
-For classification tasks:
+## For classification tasks:
+```
 python -W ignore pred_llm.py --dataset iris --method original --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
 python -W ignore pred_llm.py --dataset iris --method pred_llm --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
-
-For regression tasks:
+```
+## For regression tasks:
+```
 python -W ignore pred_llm_reg.py --dataset california --method original --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
 python -W ignore pred_llm_reg.py --dataset california --method pred_llm --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
-
-To run for all datasets and all methods:
+```
+## To run for all datasets and all methods:
+```
 python -W ignore pred_llm.py --dataset classification --method all --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
 python -W ignore pred_llm_reg.py --dataset regression --method all --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
+```
 
 # Reference and Citation
 ```
