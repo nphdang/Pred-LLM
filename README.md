@@ -26,7 +26,7 @@ python -W ignore pred_llm.py --dataset classification --method all --trainsize 1
 python -W ignore pred_llm_reg.py --dataset regression --method all --trainsize 1.0 --testsize 0.2 --gensize 1.0 --runs 3
 ```
 
-# Reference and Citation
+# Citation
 ```
 @inproceedings{nguyen2024predllm,
   title={Generating Realistic Tabular Data with Large Language Models},
@@ -35,3 +35,7 @@ python -W ignore pred_llm_reg.py --dataset regression --method all --trainsize 1
   year={2024},  
 }
 ```
+
+# Acknowledgements
+Great: As Pred-LLM heavily relies on Great, we thank the authors of Great for the publicly shared code: https://github.com/kathrinse/be_great
+Synthcity: We also thank the authors of Synthcity for the shared code to evaluate the quality and diversity of synthetic samples: https://github.com/vanderschaarlab/synthcity
