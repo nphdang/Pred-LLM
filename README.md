@@ -37,5 +37,5 @@ python -W ignore pred_llm_reg.py --dataset regression --method all --trainsize 1
 ```
 
 # Acknowledgements
-Great: As Pred-LLM heavily relies on Great, we thank the authors of Great for the publicly shared code: https://github.com/kathrinse/be_great
-Synthcity: We also thank the authors of Synthcity for the shared code to evaluate the quality and diversity of synthetic samples: https://github.com/vanderschaarlab/synthcity
+- Great: As Pred-LLM heavily relies on Great, we thank the authors of Great for the publicly shared code: https://github.com/kathrinse/be_great
+- Synthcity: We also thank the authors of Synthcity for the shared code to evaluate the quality and diversity of synthetic samples: https://github.com/vanderschaarlab/synthcity
