@@ -107,7 +107,7 @@ class PredLLM:
 
         # Set training hyperparameters
         logging.info("Create GReaT Trainer...")
-        training_args = TrainingArguments(self.experiment_dir,
+        training_args = TrainingArguments(self.experiment_dir, save_strategy="no",
                                           num_train_epochs=self.epochs,
                                           per_device_train_batch_size=self.batch_size,
                                           **self.train_hyperparameters)
